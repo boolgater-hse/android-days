@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">practice02</string>
+
+    <string name="main_hello">Здравствуйте!</string>
+    <string name="main_hereis">Это мое приложение</string>
+    <string name="main_maintext">Здесь вы можете изменить его конфигурацию и посмотреть, что произойдет</string>
+    <string name="main_hints">Подсказки</string>
+    <string name="main_hint_rotate">- Поверните ваше устройство</string>
+    <string name="main_hint_enter">- Введите что-нибудь тут</string>
+    <string name="main_hint_enter_edittext_hint">Ваш текст</string>
+    <string name="main_hint_language">- Измените язык устройства</string>
+
+    <string name="toast_landscape_event">Включена альбомная ориентация</string>
+    <string name="toast_portrait_event">Включена горизонтальная ориентация</string>
+
+    <string name="toast_keyboard_appeared_event">Появилась клавиатура</string>
+    <string name="toast_keyboard_hidden_event">Клавиатура скрыта</string>
+</resources>

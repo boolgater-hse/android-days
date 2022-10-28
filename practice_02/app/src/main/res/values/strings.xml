@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name" translatable="false">practice02</string>
+
+    <string name="main_hello">Hello!</string>
+    <string name="main_hereis">Here\'s my app</string>
+    <string name="main_maintext">You can try changing configuration of an app and see what will happen.</string>
+    <string name="main_hints">Hints</string>
+    <string name="main_hint_rotate">- Rotate your device</string>
+    <string name="main_hint_enter">- Enter something here</string>
+    <string name="main_hint_enter_edittext_hint">Your text here</string>
+    <string name="main_hint_language">- Change device language</string>
+
+    <string name="toast_landscape_event">Now it is landscape</string>
+    <string name="toast_portrait_event">Now it is portrait</string>
+
+    <string name="toast_keyboard_appeared_event">Keyboard appeared</string>
+    <string name="toast_keyboard_hidden_event">Keyboard is hidden</string>
+</resources>
