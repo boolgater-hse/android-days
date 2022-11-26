@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Music App</string>
+
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="go">Go!</string>
+
+    <string name="login_no_account">No account?</string>
+
+    <string name="sign_up">Sign up</string>
+
+    <string name="main_logged_in_as">Logged in as %1$s</string>
+
+    <string name="album_row_release_year_num_of_tracks_genre">%1$d / %2$d tracks / %3$s</string>
+    <string name="track_row_media_type_bit_depth_sample_rate">%1$s / %2$dBIT / %3$s kHZ</string>
+
+    <string name="add_artist">Add artist</string>
+    <string name="add_album">Add album</string>
+    <string name="add_track">Add track</string>
+    <string name="add_to_library">Want to add track to library?</string>
+    <string name="update_track">Update track</string>
+    <string name="update_album">Update album</string>
+    <string name="update_artist">Update artist</string>
+    <string name="artist_name">Name</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="album_title">Title</string>
+    <string name="album_genre">Genre</string>
+    <string name="album_num_of_tracks">Number of tracks</string>
+    <string name="album_release_date">01/01/1970</string>
+    <string name="album_artist_name">Artist name</string>
+
+    <string name="track_name">Track name</string>
+    <string name="track_num_of_track">Number of track</string>
+    <string name="track_media_type">Media type</string>
+    <string name="track_bit_depth">Bit depth</string>
+    <string name="track_sample_rate">Sample rate</string>
+    <string name="track_album_name">Album name</string>
+    <string name="track_artist_name">Artist name</string>
+    <string name="track_successfully_added">Successfully added</string>
+
+    <string name="library_tap_on_track">Tap on song in Tracks to add</string>
+
+    <string name="main_nav_tracks">Tracks</string>
+    <string name="main_nav_albums">Albums</string>
+    <string name="main_nav_artists">Artists</string>
+    <string name="main_nav_library">Library</string>
+
+    <string name="err_email_is_invalid">Email is invalid</string>
+    <string name="err_user_already_exists">User with that e-mail already exists</string>
+    <string name="err_field_cant_be_blank">This field cannot be blank</string>
+    <string name="err_field_only_numbers">This field must be digits only</string>
+    <string name="err_wrong_email_password">Wrong email or password</string>
+    <string name="err_use_format">Wrong date (ex. 01/01/1970)</string>
+    <string name="err_artist_doesnt_exist">Artist doesn\'t exist</string>
+    <string name="err_artist_already_exists">Artist already exists</string>
+    <string name="err_album_doesnt_exist">Album doesn\'t exist</string>
+    <string name="err_track_already_in_library">Already added to the library</string>
+
+    <string name="sort">Sort</string>
+    <string name="by_quality">By quality</string>
+    <string name="by_genre">By genre</string>
+    <string name="by_az">By a-z</string>
+    <string name="by_za">By z-a</string>
+    <string name="refresh">Refresh</string>
+    <string name="sort_tracks_by_quality">Sort tracks by quality</string>
+
+    <string name="tracks_sorted_by_quality">Sorted by quality</string>
+    <string name="albums_sorted_by_genre">Sorted by genre</string>
+    <string name="sorted_by_A_to_Z">Sorted by a-z</string>
+    <string name="sorted_by_Z_to_A">Sorted by z-a</string>
+
+    <string name="toolbar_logout">Logout</string>
+
+    <string name="pref_current_user">current_user</string>
+</resources>

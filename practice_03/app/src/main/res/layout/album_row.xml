@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="116dp">
+
+    <TextView
+        android:id="@+id/album_row_album_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="55dp"
+        android:singleLine="true"
+        android:text="ATTENTION"
+        android:textColor="?attr/colorOnBackground"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/album_row_track_cover"
+        app:layout_constraintTop_toTopOf="@+id/album_row_track_cover" />
+
+    <TextView
+        android:id="@+id/album_row_album_artist"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="55dp"
+        android:singleLine="true"
+        android:text="Joji"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/album_row_track_cover"
+        app:layout_constraintTop_toBottomOf="@+id/album_row_album_name" />
+
+    <TextView
+        android:id="@+id/album_row_album_release_year_num_of_tracks_genre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="55dp"
+        android:singleLine="true"
+        android:text="2018 / 12 tracks / ALTERNATIVE"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/album_row_track_cover"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/album_row_track_cover" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/album_row_track_cover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="5dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/album_row_track_cover_imageview"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/blank_cover_placeholder"
+            tools:ignore="ContentDescription" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageButton
+        android:id="@+id/album_row_edit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_round_edit_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/album_row_album_name"
+        app:layout_constraintTop_toTopOf="@+id/album_row_album_name"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/album_row_remove_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_round_delete_24"
+        app:layout_constraintBottom_toBottomOf="@+id/album_row_album_release_year_num_of_tracks_genre"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/album_row_album_release_year_num_of_tracks_genre"
+        tools:ignore="ContentDescription" />
+
+    <View
+        android:id="@+id/album_row_delimeter"
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        android:background="#99575757"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/album_row_edit_button"
+        app:layout_constraintStart_toStartOf="@+id/album_row_album_release_year_num_of_tracks_genre" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

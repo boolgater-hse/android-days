@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/tracks_fragment">
+
+    <fragment
+        android:id="@+id/tracks_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.TracksFragment"
+        android:label="fragment_tracks"
+        tools:layout="@layout/fragment_tracks">
+        <action
+            android:id="@+id/action_tracks_fragment_to_add_track_dialog_fragment"
+            app:destination="@id/add_track_dialog_fragment" />
+        <action
+            android:id="@+id/action_tracks_fragment_to_want_to_add_to_library_dialog_fragment"
+            app:destination="@id/want_to_add_to_library_dialog_fragment" />
+        <action
+            android:id="@+id/action_tracks_fragment_to_update_track_fragment"
+            app:destination="@id/update_track_fragment" />
+        <action
+            android:id="@+id/action_tracks_fragment_to_quality_sort_fragment"
+            app:destination="@id/quality_sort_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/albums_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.AlbumsFragment"
+        android:label="fragment_albums"
+        tools:layout="@layout/fragment_albums">
+        <action
+            android:id="@+id/action_albums_fragment_to_add_album_dialog_fragment"
+            app:destination="@id/add_album_dialog_fragment" />
+        <action
+            android:id="@+id/action_albums_fragment_to_update_album_fragment"
+            app:destination="@id/update_album_fragment" />
+        <action
+            android:id="@+id/action_albums_fragment_to_genre_sort_fragment"
+            app:destination="@id/genre_sort_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/artists_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.ArtistsFragment"
+        android:label="fragment_artists"
+        tools:layout="@layout/fragment_artists">
+        <action
+            android:id="@+id/action_artists_fragment_to_add_artist_dialog_fragment"
+            app:destination="@id/add_artist_dialog_fragment" />
+        <action
+            android:id="@+id/action_artists_fragment_to_update_artist_dialog"
+            app:destination="@id/update_artist_dialog" />
+    </fragment>
+    <fragment
+        android:id="@+id/library_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.LibraryFragment"
+        android:label="fragment_library"
+        tools:layout="@layout/fragment_library" />
+    <dialog
+        android:id="@+id/add_artist_dialog_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.add.AddArtistDialogFragment"
+        android:label="fragment_add_artist_dialog"
+        tools:layout="@layout/fragment_add_artist_dialog" />
+    <dialog
+        android:id="@+id/add_album_dialog_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.add.AddAlbumDialogFragment"
+        android:label="fragment_add_album_dialog"
+        tools:layout="@layout/fragment_add_album_dialog" />
+    <dialog
+        android:id="@+id/add_track_dialog_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.add.AddTrackDialogFragment"
+        android:label="fragment_add_track_dialog"
+        tools:layout="@layout/fragment_add_track_dialog" />
+    <dialog
+        android:id="@+id/update_artist_dialog"
+        android:name="com.studyandroid.musicapp.ui.main.update.UpdateArtistFragment"
+        android:label="fragment_update_artist_dialog"
+        tools:layout="@layout/fragment_update_artist_dialog" />
+    <dialog
+        android:id="@+id/want_to_add_to_library_dialog_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.add.WantToAddToLibraryFragment"
+        android:label="fragment_want_to_add_to_library"
+        tools:layout="@layout/fragment_want_to_add_to_library" />
+    <dialog
+        android:id="@+id/update_album_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.update.UpdateAlbumFragment"
+        android:label="fragment_update_album"
+        tools:layout="@layout/fragment_update_album" />
+    <dialog
+        android:id="@+id/update_track_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.update.UpdateTrackFragment"
+        android:label="fragment_update_track"
+        tools:layout="@layout/fragment_update_track" />
+    <dialog
+        android:id="@+id/quality_sort_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.sort.QualitySortFragment"
+        android:label="fragment_quality_sort"
+        tools:layout="@layout/fragment_quality_sort" />
+    <dialog
+        android:id="@+id/genre_sort_fragment"
+        android:name="com.studyandroid.musicapp.ui.main.sort.GenreSortFragment"
+        android:label="fragment_genre_sort"
+        tools:layout="@layout/fragment_genre_sort" />
+</navigation>

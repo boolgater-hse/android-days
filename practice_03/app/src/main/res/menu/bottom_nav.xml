@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tracks_fragment"
+        android:icon="@drawable/ic_round_music_note_24"
+        android:title="@string/main_nav_tracks" />
+    <item
+        android:id="@+id/albums_fragment"
+        android:icon="@drawable/ic_round_album_24"
+        android:title="@string/main_nav_albums" />
+    <item
+        android:id="@+id/artists_fragment"
+        android:icon="@drawable/ic_round_group_24"
+        android:title="@string/main_nav_artists" />
+    <item
+        android:id="@+id/library_fragment"
+        android:icon="@drawable/ic_baseline_library_music_24"
+        android:title="@string/main_nav_library" />
+</menu>
