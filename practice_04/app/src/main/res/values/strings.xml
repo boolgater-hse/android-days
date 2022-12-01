@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">VK Albums</string>
+
+    <string name="hello_text">Hello! This is app for viewing user\'s albums from social network vk.com</string>
+    <string name="okay">Okay</string>
+
+    <string name="search">Search</string>
+    <string name="albums">Albums</string>
+    <string name="go">Go</string>
+    <string name="vk_id">VK ID</string>
+    <string name="currently_viewing_user">%1$s</string>
+    <string name="no_photos">no photos</string>
+    <string name="one_photo">%1$d photo</string>
+    <string name="many_photos">%1$d photos</string>
+    <string name="enter_vk_id">Enter VK ID in search on top</string>
+    <string name="cant_find_this_user">Can\'t find user with this ID</string>
+    <string name="profile_is_closed">User\'s profile is closed</string>
+    <string name="user_no_albums">User don\'t have any albums :(</string>
+    <string name="album_no_photos">This album is empty :(</string>
+    <string name="vk_api_error">Error with VK API</string>
+    <string name="internet_conn_issues">Internet connection issues</string>
+    <string name="unknown_error">Unknown error occurred</string>
+
+    <string name="pref_is_first_time">is_first_time</string>
+</resources>

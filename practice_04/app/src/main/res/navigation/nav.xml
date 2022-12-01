@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/main_empty_home_fragment">
+
+    <fragment
+        android:id="@+id/main_empty_home_fragment"
+        android:name="com.studyandroid.vkalbums.ui.main.MainEmptyHomeFragment"
+        android:label="fragment_main_empty_home"
+        tools:layout="@layout/fragment_main_empty_home">
+        <action
+            android:id="@+id/action_main_empty_home_fragment_to_albums_fragment"
+            app:destination="@id/albums_fragment"
+            app:enterAnim="@anim/bottom_up"
+            app:launchSingleTop="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/albums_fragment"
+        android:name="com.studyandroid.vkalbums.ui.main.albums.AlbumsFragment"
+        android:label="fragment_albums"
+        tools:layout="@layout/fragment_albums">
+        <action
+            android:id="@+id/action_albums_fragment_to_photos_fragment"
+            app:destination="@id/photos_fragment"
+            app:enterAnim="@anim/bottom_up" />
+    </fragment>
+    <fragment
+        android:id="@+id/photos_fragment"
+        android:name="com.studyandroid.vkalbums.ui.main.photos.PhotosFragment"
+        android:label="fragment_photos"
+        tools:layout="@layout/fragment_photos" />
+</navigation>
